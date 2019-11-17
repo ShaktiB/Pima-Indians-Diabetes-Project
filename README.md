@@ -14,3 +14,9 @@ I used various kernels to get some guidance for different parts of the project, 
 1. https://www.kaggle.com/paultimothymooney
 2. https://www.kaggle.com/shrutimechlearn
 3. https://www.kaggle.com/ash316
+
+**This data set contains imbalanced data for both classes (diabetes and no diabetes). When developing machine learning models, it is 
+very important that this imbalance is adressed. The link provided below provided valuable insight into how this issue can be adressed 
+using different techniques to help improve model selection and opimization.**
+
+https://elitedatascience.com/imbalanced-classes
