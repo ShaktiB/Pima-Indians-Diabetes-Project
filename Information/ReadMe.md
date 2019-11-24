@@ -17,5 +17,5 @@ I used various kernels to get some guidance for different parts of the project, 
 very important that this imbalance is adressed. The links provided below provided valuable insight into how this issue can be adressed 
 using different techniques to help improve model selection and opimization.**
 
-https://elitedatascience.com/imbalanced-classes
+https://elitedatascience.com/imbalanced-classes <br>
 https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html
