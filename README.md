@@ -29,12 +29,21 @@ The data was explored using different methods to obtain a sense of how the data 
 
 During this stage, it was found that were were 0 values for many of the features for which a value of 0 was not possible. These inconsistencies were addressed to ensure the data was being interpreted properly and so that the values did not skew the statistical summary of the data (mean, median, distribution, etc.). 
 
-Heatmap
+Heatmap <br>
 ![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/heatmap.jpg)
 
 ## Data Preparation
 
-The 0 values in the dataset were replaced with mean/median values 
+The 0 values in the dataset were replaced with mean/median values based on the data distribution. The data was also scaled using the **RobustScaler**, which scales the data using the 25th and 75th percetiles. Scaling is an important step in **preprocessing** data as many algorithms (especially ones that use distance SVM, k-Means, etc.) require data to be on the same scale. This prevents certain features from having more "meaning" (bigger impact) during the learning process simply because they consist of bigger values compared to other features. 
+
+Prior to implementation of machine learning algorithms, the data was split into **training**, **validaton**, and **test** sets. The validation set was used to evaluate the model and tune its hyperparamters. The test data was used at the end to compare each model's performance on new data which was *unseen* by the models. 
+
+Ex: The **K** value in the k-NN model was tested to find the optimal value. <br>
+![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/knnModelTuning.jpg)
+
+## Machine Learning
+
+
 
 
  
