@@ -25,7 +25,11 @@ that are atleast 21 years old. The metric provided in the dataset are:
 
 ## Data Exploration
 
-The data was explored using different methods to obtain a sense of how the data is **distributed** and **correlated** with diabetes and with other features. Data visualizations such as **histograms**,**pair plots**, and **heat maps** helped obtain a statistical understanding of the data. Some examples of the visualizations are displayed below: 
+The data was explored using different methods to obtain a sense of how the data is **distributed** and **correlated** with the presence of diabetes and with other features. Data visualizations such as **histograms**, **pair plots**, and **heat maps** helped obtain a statistical understanding of the data. 
+
+Some examples of the visualizations are displayed below: 
+
+![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/heatmap.jpg)
 
 
  
