@@ -43,6 +43,12 @@ Ex: The **K** value in the k-NN model was tested to find the optimal value. <br>
 
 ## Machine Learning
 
+The models used in this project are **SVM**, **Logistic Regression**, **k-NN**, and **Random Forests**. Models such as SVM and Logistic Regression were penalized for misclassification to help account for the imbalance in data (500 non-diabetic records, and only 278 diabetic records). 
+
+### Model Evaluation 
+
+The project problem is a classification problem, hence **Sensitivity**, **Specificity**, **AUCROC (Area Under the Curve of ROC)**, and **Accuracy** were used to evaluate the models' performance. 
+
 
 
 
