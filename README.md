@@ -56,6 +56,12 @@ The models were tested and compared with each other using the testing data. It w
 
 ![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/ModelTesting.jpg)
 
+**k-NN Confusion Matrix** <br>
+![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/knnConfusionMat.jpg)
+
+**k-NN ROC** <br>
+![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/knnModelROC.jpg)
+
 
 
 
