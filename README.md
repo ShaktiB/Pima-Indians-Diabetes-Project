@@ -47,7 +47,8 @@ The models used in this project are **SVM**, **Logistic Regression**, **k-NN**, 
 
 ### Model Evaluation 
 
-The project problem is a classification problem, hence **Sensitivity**, **Specificity**, **AUCROC (Area Under the Curve of ROC)**, and **Accuracy** were used to evaluate the models' performance. 
+The project problem is a classification problem, hence **Sensitivity**, **Specificity**, **AUCROC (Area Under the Curve of ROC)**, and **Accuracy** were used to evaluate the models' performance. Accuracy was the least important metric in this case due to the imbalane in data. For example, if a model's classification accuracy was 90% it would not be a valid representation of a *good* model if: 90/100 data points belonged to Class 1, 10/100 data points belonged to Class 2, and the model completely missclassified all of the Class 2 data points. In such a scenario, even though the accuracy is 90%, the model is unabl to accurately classify Class 2 data. 
+
 
 
 
