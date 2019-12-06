@@ -63,6 +63,12 @@ The models were tested and compared with each other using the testing data. It w
 ![alt tag](https://github.com/ShaktiB/Pima-Indians-Diabetes-Project/blob/master/Data%20Visualizations/knnModelROC.jpg)
 
 
+## Conclusion
 
+From the information above, we can not that in this project, k-NN was provided the best accuracy and AUCROC. Random Forests was also another model which performed relatively well. It was surpring to see the SVM model perform so poorly after getting an AUC of almost 76% on the validation set. However, it is an important example of how models may perform on unseen data. <br>
+
+### Improvements
+
+This project covered a lot of different concepts which are helpful in **building machine learning models**, such as **data manipulation/cleaning/preprocessing**, **data exploration/analysis**, **data scaling**, and **model evaluation**. However, there are always ways to improve. For example, an ensemble voting method can be used to use multiple models to determine the final outcome. When working with medical data, it is also important to consider an optimal value for tradeoff between false negatives and false positives. Feature engineering techniques can also help enhance model performance. For instance, it can be noted that between some features, certain ranges of values consisted of more points relating to non-diabetic/diabetic patients. That information can be used to derive additional feature can help make the model more accuracte. 
 
  
